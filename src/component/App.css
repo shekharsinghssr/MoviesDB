@@ -1,0 +1,61 @@
+.heading{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ color: rgb(0, 2, 2);
+ height: 50px;
+ margin: 50;
+ text-align: center;
+}
+.movie-main{
+
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 0 auto 0 auto;
+gap:20px;
+justify-content: space-around;
+margin-top: 100px;
+}
+ 
+.movie-card{
+ 
+  box-shadow: 3px 5px 5px 1px rgba(0,0,0,0.54);
+-webkit-box-shadow: 3px 5px 5px 1px rgba(0, 0, 0, 0.603);
+-moz-box-shadow: 3px 5px 5px 1px rgba(126, 115, 115, 0.54);
+  
+
+  
+}
+
+.movie-card:hover{
+  box-shadow: 3px 5px 5px 10px rgba(0,0,0,0.54);
+  -webkit-box-shadow: 3px 5px 5px 10px rgba(7, 54, 56, 0.54);
+  -moz-box-shadow: 3px 5px 5px 10px rgba(0,0,0,0.54);
+  
+}
+
+.card{
+  width: 25rem;
+}
+.movie-poster{
+  width: 19rem;
+  height: 500px;
+  margin: auto;
+}
+.search-button{
+  margin-top: 20px;
+}
+.card-titles{
+  text-align: center;
+}
+
+.searchform{
+ text-align: center;
+  margin: auto;
+}
+.searchbar{
+  max-width: 40%;
+  margin: auto;
+  align-self: center;
+}
+
+
